@@ -20,7 +20,7 @@ User.create!(name:'Uchinnchu', age:11)
 User.create!(name:'FIREMEN', age:911)
 
 1000.times do
-  User.create!(name: Faker::Nmae.name, age: rand(0..100))
+  User.create!(name: Faker::Name.name, age: rand(0..100))
 end
 
 puts "初期データの投入に成功しました！"
